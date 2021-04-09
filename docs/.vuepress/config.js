@@ -1,5 +1,5 @@
 module.exports = {
-  title: '以梅佐酒',
+  title: '以梅佐酒的个人空间',
   description: '修身 齐家 治国 平天下',
   theme: 'reco',
   themeConfig: {
@@ -17,7 +17,7 @@ module.exports = {
     nav: [
       {text: 'Home', link: '/', icon: 'reco-home'},
       {text: 'About', link: '/about/', icon: 'reco-account'},
-      { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' },
+      {text: 'TimeLine', link: '/timeline/', icon: 'reco-date'},
       {text: 'GitHub', link: 'https://github.com/TanLiangZhong', icon: 'reco-github'},
     ],
     blogConfig: {
