@@ -1,5 +1,5 @@
 ---
-title: Yarn 安装
+title: yarn安装
 date: '2021-03-09'
 sidebar: 'auto'
 categories:
