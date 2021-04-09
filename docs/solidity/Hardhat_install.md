@@ -1,6 +1,6 @@
 ---
 title: Hardhat 安装 #
-date: '2021-1-3'
+date: '2021-2-3'
 sidebar: 'auto'
 categories:
 - 区块链

@@ -1,6 +1,6 @@
 ---
 title: Windows WSL2 开发环境配置
-date: '2021-3-9'
+date: '2020-1-9'
 sidebar: 'auto'
 categories:
 - 运维

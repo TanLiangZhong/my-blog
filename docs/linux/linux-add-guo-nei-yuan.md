@@ -1,6 +1,6 @@
 ---
 title: Linux添加国内源
-date: '2021-03-22'
+date: '2020-03-22'
 sidebar: 'auto'
 categories:
 - 运维

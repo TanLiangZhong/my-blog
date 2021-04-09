@@ -1,6 +1,6 @@
 ---
 title: npm install 详解
-date: '2021-03-09'
+date: '2020-03-09'
 sidebar: 'auto'
 categories:
 - 前端

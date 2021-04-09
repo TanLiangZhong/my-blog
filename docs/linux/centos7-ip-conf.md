@@ -1,6 +1,6 @@
 ---
 title: Centos7 Ip配置
-date: '2010-11-27'
+date: '2020-11-27'
 sidebar: 'auto'
 categories:
 - 运维
