@@ -9,11 +9,9 @@ tags:
 publish: true
 ---
 
-
-
 ### 函数定义 `function` 
 * 语法
-    > function (<parameter types>) [parivate|internal|external|public] [pure|view|payable] (returns()) {}
+    > ``` function (<parameter types>) [parivate|internal|external|public] [pure|view|payable] (returns()) {} ```
     * `internal` 修饰的函数, 可以在合约内部或子合约中调用, 不能在外部调用
     * `external` 修饰的函数, 只能在合约外部调用，不能在合约内部调用
     * `view` 视图函数
@@ -347,5 +345,3 @@ contract MemoryTest{
 }
 
 ```
-
-### 
