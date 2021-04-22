@@ -19,7 +19,8 @@ publish: true
 [root@localhost lz]# ls
 mongodb-org-server-4.4.5-1.el8.x86_64.rpm
 mongodb-org-shell-4.4.5-1.el8.x86_64.rpm
-[root@localhost lz]# yum localinstall mongodb-org-server-4.4.5-1.el8.x86_64.rpm Fedora Modular 33 - x86_64 - Updates            3.7 kB/s | 4.2 kB     00:01    
+[root@localhost lz]# yum localinstall mongodb-org-server-4.4.5-1.el8.x86_64.rpm 
+Fedora Modular 33 - x86_64 - Updates            3.7 kB/s | 4.2 kB     00:01    
 Fedora Modular 33 - x86_64 - Updates             11 kB/s |  45 kB     00:03    
 Fedora 33 - x86_64 - Updates                    5.3 kB/s | 4.2 kB     00:00    
 Fedora 33 - x86_64 - Updates                     77 kB/s | 425 kB     00:05    
