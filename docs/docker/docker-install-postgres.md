@@ -1,5 +1,5 @@
 ---
-title: Docker安装 postgres
+title: Docker安装 postgresSql
 date: '2021-4-28'
 sidebar: 'auto'
 categories:
@@ -10,7 +10,7 @@ tags:
 publish: true
 ---
 
-> Docker 安装 postgres 仅用于测试使用.
+> Docker 安装 PostgresSql 仅用于测试使用.
 
 ### Run
 ```shell
