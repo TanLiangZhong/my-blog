@@ -1,6 +1,6 @@
 ---
 title: Linux MongoDB 安装
-date: '2020-03-22'
+date: '2021-04-1'
 sidebar: 'auto'
 categories:
 - 运维
