@@ -52,6 +52,6 @@ psql
 5. 重启Postgresql
 
 ### 相关文档
-https://www.postgresql.org/
-http://www.postgres.cn/index.php/v2/home
-https://www.runoob.com/postgresql/postgresql-tutorial.html
+> https://www.postgresql.org/   
+> http://www.postgres.cn/index.php/v2/home   
+>https://www.runoob.com/postgresql/postgresql-tutorial.html
