@@ -9,6 +9,8 @@ tags:
 publish: true
 ---
 
+>默认情况下，Spring 将搜索关联的线程池定义：上下文中唯一的org.springframework.core.task.TaskExecutor bean，或者名为“taskExecutor”的java.util.concurrent.Executor bean。 如果两者都不可解析，则将使用org.springframework.core.task.SimpleAsyncTaskExecutor来处理异步方法调用。
+
 ```java
 /**
  * 默认异步任务配置
