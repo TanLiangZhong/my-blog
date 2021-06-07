@@ -1,12 +1,12 @@
 ---
-title: java系统属性（Java System Properties）
+title: java系统属性(Java System Properties)
 date: '2021-06-07'
 sidebar: 'auto'
 categories:
 - 后端
 tags:
 - java
-publish: false
+publish: true
 ---
 
 > 当前系统属性。 首先，如果有一个安全管理器，它的checkPropertiesAccess方法被无参数调用。 这可能会导致安全异常。   

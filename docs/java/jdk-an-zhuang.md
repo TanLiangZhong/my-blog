@@ -6,7 +6,7 @@ categories:
 - 后端
 tags:
 - java
-publish: false
+publish: true
 ---
 
 ### Win 10安装.
