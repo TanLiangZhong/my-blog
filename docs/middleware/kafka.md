@@ -1,3 +1,13 @@
+---
+title: kafka 安装
+date: '2021-07-22'
+sidebar: 'auto'
+categories:
+- 中间件
+tags:
+- MQ
+publish: true
+---
 
 ###
 ```shell
