@@ -21,26 +21,27 @@ publish: true
 * `cargo publish` 可以将库发布到 [crates.io](https://crates.io/)。
 
 ### Cargo 更换国内源
-* Aliyun
-```shell
-tee $HOME/.cargo/config <<-'EOF'
-[source.crates-io]
-replace-with = "rustcc"
-
-[source.rustcc]
-registry = "https://code.aliyun.com/rustcc/crates.io-index"
-EOF
-```
-* 中科大
-```shell
-tee $HOME/.cargo/config <<-'EOF'
-[source.crates-io]
-registry = "https://github.com/rust-lang/crates.io-index"
-replace-with = 'ustc'
-[source.ustc]
-registry = "git://mirrors.ustc.edu.cn/crates.io-index"
-EOF
-```
+* 中科大源
+  * linux
+  ```shell
+  tee $HOME/.cargo/config <<-'EOF'
+  [source.crates-io]
+  registry = "https://github.com/rust-lang/crates.io-index"
+  replace-with = 'ustc'
+  [source.ustc]
+  registry = "git://mirrors.ustc.edu.cn/crates.io-index"
+  EOF
+  ```
+  * Windows
+  > 在 `C:\Users\user\.cargo` 下新增 `config` 文件加入配置
+  ```
+  [source.crates-io]
+  registry = "https://github.com/rust-lang/crates.io-index"
+  replace-with = 'ustc'
+  [source.ustc]
+  registry = "git://mirrors.ustc.edu.cn/crates.io-index"
+  EOF
+  ```
 
 ### 卸载Rust
 > `rustup self uninstall`
