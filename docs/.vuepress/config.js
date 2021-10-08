@@ -9,7 +9,7 @@ module.exports = {
         server: "netease",
         // 读取歌单
         type: "playlist",
-        mid: "6703421939",
+        mid: "401456727",
       },
       // 不配置该项的话不会出现全局播放器
       aplayer: {
@@ -43,7 +43,7 @@ module.exports = {
     subSidebar: 'auto',
     author: '以梅佐酒',
     huawei: true,
-    modePicker: false,
+    modePicker: true,
     startYear: '2016',
     friendLink: [
       // ...

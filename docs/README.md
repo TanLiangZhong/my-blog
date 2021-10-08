@@ -1,7 +1,7 @@
 ---
 home: true
 bgImage: '/home.png'
-bgImageStyle: {
-  height: '350px'
-}
+# bgImageStyle: {
+#   height: '350px'
+# }
 ---
