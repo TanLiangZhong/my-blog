@@ -9,7 +9,7 @@ tags:
 publish: true
 ---
 
-## Windows10 安装JDK 
+## Windows10 安装Docker
 
 ### 1.系统要求
 > Windows 10 64位：专业版，企业版或教育版（内部版本16299或更高版本）.  
