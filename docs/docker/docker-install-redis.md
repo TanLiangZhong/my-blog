@@ -29,7 +29,11 @@ mkdir /home/reids
 
 ### Run
 ```shell
-docker run -p 6379:6379 --name redis -v /home/redis/redis.conf:/etc/redis/redis.conf  -v /home/redis/data:/data -d redis redis-server /etc/redis/redis.conf --appendonly yes
+docker run -d -p 6379:6379 --restart always --privileged=true --name redis \
+-v /$PWD/redis.conf:/etc/redis/redis.conf \
+-v $PWD/data:/data \
+redis:6.2 \
+redis-server /etc/redis/redis.conf --appendonly yes
 ```
  * `-p 6379:6379`: 把容器内的6379端口映射到宿主机6379端口
  * `-v /data/redis/redis.conf:/etc/redis/redis.conf`: 把宿主机配置好的redis.conf放到容器内的这个位置中
