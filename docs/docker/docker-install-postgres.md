@@ -14,5 +14,10 @@ publish: true
 
 ### Run
 ```shell
-docker run  -d --name some-postgres  -e POSTGRES_PASSWORD=123456 -p 5432:5432 postgres
+docker run -d --restart always --privileged=true \
+    --name postgres \
+    -p 5432:5432 \
+    -e POSTGRES_PASSWORD=Tan@1117 \
+    -v $PWD/data:/var/lib/postgresql/data \
+    postgres
 ```
